@@ -2,7 +2,7 @@ import Education from "../components/Education"
 import PortfolioCard from "../components/PortfolioCard"
 import Skill from "../components/Skill"
 import WorkingExperience from "../components/WorkingExperience"
-import './home.css'
+import '../index.css'
 function HomePage() {
     return (
         <div className='home-page flex gap-10'>
