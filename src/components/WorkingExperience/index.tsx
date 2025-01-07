@@ -9,7 +9,7 @@ function WorkingExperience() {
                 <div className="w-20">
                     <img src={logo} alt="" />
                 </div>
-                <div className="">
+                <div className="w-3/4">
                     <h3 className='font-bold'>Senior UX UI Designer</h3>
                     <div className="flex">
                         <p>Lorem ipsum dolor sit amet, consectetr  elit. Diam, pellenesque dignissim eu vivamus donec erat. Lorem ipsum dolor sit amet, consectetr  elit.</p>
@@ -21,7 +21,7 @@ function WorkingExperience() {
                 <div className="w-20">
                     <img src={logo} alt="" />
                 </div>
-                <div className="">
+                <div className="w-3/4">
                     <h3 className='font-bold'>Senior UX UI Designer</h3>
                     <div className="flex">
                         <p>Lorem ipsum dolor sit amet, consectetr  elit. Diam, pellenesque dignissim eu vivamus donec erat. Lorem ipsum dolor sit amet, consectetr  elit.</p>
@@ -33,7 +33,7 @@ function WorkingExperience() {
                 <div className="w-20">
                     <img src={logo} alt="" />
                 </div>
-                <div className="">
+                <div className="w-3/4">
                     <h3 className='font-bold'>Senior UX UI Designer</h3>
                     <div className="flex">
                         <p>Lorem ipsum dolor sit amet, consectetr  elit. Diam, pellenesque dignissim eu vivamus donec erat. Lorem ipsum dolor sit amet, consectetr  elit.</p>
@@ -45,7 +45,7 @@ function WorkingExperience() {
                 <div className="w-20">
                     <img src={logo} alt="" />
                 </div>
-                <div className="">
+                <div className="w-3/4">
                     <h3 className='font-bold'>Senior UX UI Designer</h3>
                     <div className="flex">
                         <p>Lorem ipsum dolor sit amet, consectetr  elit. Diam, pellenesque dignissim eu vivamus donec erat. Lorem ipsum dolor sit amet, consectetr  elit.</p>
@@ -53,6 +53,7 @@ function WorkingExperience() {
                     </div>
                 </div>
             </div>
+           
         </div>
     )
 }

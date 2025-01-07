@@ -5,31 +5,33 @@
   }
 
   .information {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 1200px) {
   .portfolio-card {
     width: 30%;
-    border-radius: 15px;
   }
 
   .avatar {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   .information {
-    margin-top: 180px;
+    margin-top: 100px;
     padding: 30px;
   }
+
+
 }
 
 .portfolio-card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
   height: fit-content;
+  border-radius: 15px;
 }
 
 .image-user {
@@ -38,8 +40,7 @@
 }
 
 .cover-img {
-  min-width: 150px;
-  min-height: 150px;
+  height: 200px;
 }
 
 .avatar {

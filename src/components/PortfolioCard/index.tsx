@@ -10,7 +10,7 @@ function PortfolioCard() {
                         <img src={avatar} alt="" />
                     </div>
                 </div>
-                <div className="information mx-3">
+                <div className="information">
                     <div className="text-center">
                         <h3 className='text-xl font-bold'>Ahihi</h3>
                         <p className='text-lg'>Developer</p>

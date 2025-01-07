@@ -2,15 +2,15 @@ import Education from "../components/Education"
 import PortfolioCard from "../components/PortfolioCard"
 import Skill from "../components/Skill"
 import WorkingExperience from "../components/WorkingExperience"
-
+import './home.css'
 function HomePage() {
     return (
-        <div className='flex gap-10 m-10'>
+        <div className='home-page flex gap-10'>
             <PortfolioCard />
-            <div className="">
+            <div className="content">
                 <WorkingExperience />
                 <Skill />
-                <Education/>
+                <Education />
             </div>
         </div>
     )
