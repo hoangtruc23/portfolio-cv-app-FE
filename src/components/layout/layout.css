@@ -1,0 +1,19 @@
+.header {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}

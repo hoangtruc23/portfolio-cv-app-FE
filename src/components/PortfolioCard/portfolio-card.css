@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .information {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-card {
+    width: 30%;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  .information {
+    margin-top: 100px;
+    padding: 30px;
+  }
+
+
+}
+
+.portfolio-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+.image-user {
+  position: relative;
+  border-radius: 15px;
+}
+
+.cover-img {
+  height: 200px;
+}
+
+.avatar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.information {
+  padding: 30px;
+}
