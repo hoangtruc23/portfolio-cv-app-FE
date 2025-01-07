@@ -1,5 +1,6 @@
 
 const pages = ['Home', 'All Jobs', 'Companies', 'People', 'Career Advices'];
+import { Link } from 'react-router-dom';
 import logo from '../../assets/img/logo.avif';
 import './layout.css';
 
@@ -8,7 +9,9 @@ function Header() {
         <div className='header'>
             <div className="menu">
                 <div className="w-24 h-24">
-                    <img src={logo} alt="" />
+                    <Link to='/'>
+                        <img src={logo} alt="" />
+                    </Link>
                 </div>
                 <div className="flex gap-5 font-semibold">
                     {pages.map((page, index) => {
